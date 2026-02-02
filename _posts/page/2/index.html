@@ -1,0 +1,179 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>crepcom的博客 - 飞八分钱</title><meta name="author" content="纪雪晖"><meta name="copyright" content="纪雪晖"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="一条脱离了高级趣味的蛆。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="crepcom的博客">
+<meta property="og:url" content="https://crepcom430827.github.io/_posts/page/2/index.html">
+<meta property="og:site_name" content="crepcom的博客">
+<meta property="og:description" content="一条脱离了高级趣味的蛆。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://crepcom430827.github.io/img/butterfly-icon.png">
+<meta property="article:author" content="纪雪晖">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://crepcom430827.github.io/img/butterfly-icon.png"><script type="application/ld+json"></script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://crepcom430827.github.io/_posts/page/2/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.4"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'crepcom的博客',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'home'
+}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">24</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-book"></i><span> 知识库</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/notes/"><i class="fa-fw fas fa-note-sticky"></i><span> 笔记</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">crepcom的博客</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-book"></i><span> 知识库</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/notes/"><i class="fa-fw fas fa-note-sticky"></i><span> 笔记</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="site-info"><h1 id="site-title">crepcom的博客</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts nc" id="recent-posts"><div class="recent-post-items"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2026/01/04/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F-2025%E7%A7%8B/13.%E8%85%B9%E5%A4%96%E7%96%9D/" title="腹外疝笔记">腹外疝笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time datetime="2026-02-02T15:38:47.936Z" title="更新于 2026-02-02 23:38:47">2026-02-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%BD%A0%E6%B0%B8%E8%BF%9C%E6%98%AF%E5%81%9A%E9%A2%98%E8%9B%86%EF%BC%8C%E5%88%AB%E5%BF%98%E4%BA%86%E8%A1%A1%E6%B0%B4%E7%9A%84%E6%81%A9/">你永远是做题蛆，别忘了衡水的恩</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F/">消化系统</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%A4%A7%E4%B8%89%E4%B8%8A/">大三上</a></span></div><div class="content">第一部分：概述与定义1. 核心概念  疝 (Hernia) 的定义： 体内某个脏器或组织离开其正常解剖部位，通过先天或后天形成的薄弱点、缺损或孔隙进入另一部位 。  腹外疝 (External Abdominal Hernia) 的定义： 腹腔内脏器连同腹膜壁层，经腹壁薄弱区或孔隙，向体表突出 。  真性腹外疝： 疝内容物连同壁层腹膜（疝囊）一起突出腹腔 。  腹内疝 (Internal Abdominal Hernia) 的定义： 腹腔内脏器或组织进入腹腔内的间隙囊内 。   2. 疝的组成  疝囊： 壁层腹膜经疝门向外突出的囊袋结构，分为颈、体、底三部。疝囊颈是疝环所在部位，是疝突出的门户 。  疝内容物： 进入疝囊的腹内脏器或组织。小肠最常见，其次是大网膜 。  疝外被盖： 疝囊以外的各层组织 。   3. 病因  腹壁强度降低： 是疝发生的基础 。  先天性因素：精索或子宫圆韧带穿过腹股沟管、股动静脉穿过股管、脐血管穿过脐环；腹白线发育不全 。  后天性因素：手术切口愈合不良、外伤、感染、老龄导致肌肉萎缩、肥胖 。    腹内压力增高： 是疝发生的诱发因素 。  常见原因...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2026/01/04/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F-2025%E7%A7%8B/14.%E6%80%A5%E8%85%B9%E7%97%87/" title="急腹症笔记">急腹症笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time datetime="2026-02-02T15:39:01.254Z" title="更新于 2026-02-02 23:39:01">2026-02-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%BD%A0%E6%B0%B8%E8%BF%9C%E6%98%AF%E5%81%9A%E9%A2%98%E8%9B%86%EF%BC%8C%E5%88%AB%E5%BF%98%E4%BA%86%E8%A1%A1%E6%B0%B4%E7%9A%84%E6%81%A9/">你永远是做题蛆，别忘了衡水的恩</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F/">消化系统</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%A4%A7%E4%B8%89%E4%B8%8A/">大三上</a></span></div><div class="content">第一部分：急腹症 (Acute Abdomen) 概论1. 定义与分类  急腹症的定义： 以急性腹痛为就诊主诉或临床主要表现，需要及时外科处理的腹部疾病。 外科急腹症的特点： 发病急、进展快、病情重。 学科交叉： 需排除内科急腹症（如急性心梗、糖尿病酮症酸中毒）、妇科急腹症（如异位妊娠破裂）等。  2. 腹痛的病理生理机制 (三种类型)  内脏痛 (Visceral Pain) 的产生机制： 由内脏神经（植物神经）的痛觉纤维传入中枢。  内脏痛的敏感刺激： 对牵拉、痉挛、膨胀、缺血等刺激敏感；对切割、烧灼刺激不敏感。  内脏痛的临床特点： 定位不准确，感觉模糊（钝痛、绞痛、不适感），常伴有恶心、呕吐等消化道症状及出汗等自主神经反射。    躯体痛 (Somatic Pain) 的产生机制： 由躯体神经（脊神经）的敏感痛觉纤维传入。  躯体痛的敏感刺激： 对机械性（切割）、化学性（胃酸、胰液）、物理性（温度）刺激非常敏感。  躯体痛的临床特点： 定位准确，程度剧烈而持续，可引发腹肌紧张（防御反射）。    牵涉痛 (Referred Pain) 的定义： 内脏痛觉信号传入脊髓时，影...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2026/01/04/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F-2025%E7%A7%8B/12.%E8%83%86%E9%81%93%E7%96%BE%E7%97%85/" title="胆道疾病笔记">胆道疾病笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time datetime="2026-02-02T15:38:31.071Z" title="更新于 2026-02-02 23:38:31">2026-02-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%BD%A0%E6%B0%B8%E8%BF%9C%E6%98%AF%E5%81%9A%E9%A2%98%E8%9B%86%EF%BC%8C%E5%88%AB%E5%BF%98%E4%BA%86%E8%A1%A1%E6%B0%B4%E7%9A%84%E6%81%A9/">你永远是做题蛆，别忘了衡水的恩</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F/">消化系统</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%A4%A7%E4%B8%89%E4%B8%8A/">大三上</a></span></div><div class="content">第一部分：胆道系统解剖与生理基础1. 胆囊三角 (Calot’s Triangle)  定义与边界：由胆囊管、肝总管及肝脏下缘所构成的三角区。 内容物：胆囊动脉、肝右动脉、副右肝管。 临床意义：是胆道手术中极易发生误伤的危险区域 (必须仔细辨认)。  2. 胆道系统的生理功能  胆囊功能：浓缩、储存、排出胆汁，并分泌粘液。 胆汁分泌量：每日分泌量约 800-1200ml。 胆汁成分：胆汁酸、胆固醇、胆色素、磷脂酰胆碱。 肠肝循环：大部分胆汁酸在回肠被重吸收回到肝脏。  3. 特殊检查方法  B超 (Ultrasonography)：胆道疾病的首选检查方法 (诊断胆囊结石准确率 95-98%)。 ERCP (内镜逆行胰胆管造影)： 特点：有创，可进行胆道成像及治疗 (如取石、EST)。 并发症：急性胰腺炎、出血、穿孔、胆管炎。   MRCP (磁共振胰胆管成像)： 特点：无创，仅用于诊断，观察静态图像，分辨率高。   PTC (经皮肝穿刺胆管造影)：用于梗阻性黄疸的诊断及引流 (PTCD)。   第二部分：胆石症 (Cholelithiasis)1. 胆石分类与成因  胆固醇结石 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2026/01/04/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F-2025%E7%A7%8B/11.%E8%82%9D%E8%84%8F%E7%96%BE%E7%97%85%E4%B8%8E%E8%82%9D%E7%99%8C/" title="肝癌笔记">肝癌笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time datetime="2026-02-02T15:38:13.224Z" title="更新于 2026-02-02 23:38:13">2026-02-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%BD%A0%E6%B0%B8%E8%BF%9C%E6%98%AF%E5%81%9A%E9%A2%98%E8%9B%86%EF%BC%8C%E5%88%AB%E5%BF%98%E4%BA%86%E8%A1%A1%E6%B0%B4%E7%9A%84%E6%81%A9/">你永远是做题蛆，别忘了衡水的恩</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F/">消化系统</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%A4%A7%E4%B8%89%E4%B8%8A/">大三上</a></span></div><div class="content">第一部分：肝脏解剖与生理基础1. 肝脏解剖特征  形态与重量： 人体最大的实性器官，重约 1200-1500g (占体重2%)。 位置： 上界平右锁骨中线第五肋间，下界平右肋缘。 Glisson鞘 (Glisson’s capsule)： 包绕门静脉、肝动脉和肝胆管的结缔组织鞘，延伸入肝内。  2. 肝脏分段 (Couinaud分段法)  分段依据： 以门静脉和肝静脉的分布为基础。 分段结构 (5叶8段)： 尾状叶 (I段)：位于后方，具有独立汇入下腔静脉的静脉回流。 左外叶：II段 (上)、III段 (下)。 左内叶：IV段。 右前叶：V段 (下)、VIII段 (上)。 右后叶：VI段 (下)、VII段 (上)。   肝中静脉 (MHV) 临床意义： 是左、右半肝的分界线；肝切除时需注意保留，以免引起引流区域充血坏死。  3. 肝脏血流阻断技术  Pringle手法： 临时阻断肝十二指肠韧带 (入肝血流)，用于控制术中出血。 常温下阻断时限： 正常肝脏：单次阻断最长可达 60分钟 (通常&lt;20分钟&#x2F;次，间断阻断)。 肝硬化肝脏：单次阻断应 &lt;15分钟。  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2026/01/04/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F-2025%E7%A7%8B/10.%E8%82%9D%E7%A1%AC%E5%8C%96/" title="肝硬化笔记">肝硬化笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time datetime="2026-02-02T15:37:57.981Z" title="更新于 2026-02-02 23:37:57">2026-02-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%BD%A0%E6%B0%B8%E8%BF%9C%E6%98%AF%E5%81%9A%E9%A2%98%E8%9B%86%EF%BC%8C%E5%88%AB%E5%BF%98%E4%BA%86%E8%A1%A1%E6%B0%B4%E7%9A%84%E6%81%A9/">你永远是做题蛆，别忘了衡水的恩</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F/">消化系统</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%A4%A7%E4%B8%89%E4%B8%8A/">大三上</a></span></div><div class="content">第一部分：定义与流行病学1. 定义 (Definition)  病理学定义： 是一种弥漫性肝脏病变，特征为肝纤维化 (Fibrosis) 和正常肝小叶结构被异常的再生结节 (Regenerative nodules)（即“假小叶”）所取代 。 临床定义： 各种慢性肝病的共同终末途径 (Common pathway)，失代偿期主要表现为门静脉高压和肝功能减退 。  2. 流行病学 (Epidemiology)  中国主要病因： 乙型肝炎 (HBV) 仍是主要原因，但酒精性肝病和非酒精性脂肪性肝炎 (NASH) 的比例正在上升 。 全球趋势： NASH 导致的肝硬化比例显著增加 。   第二部分：发病机制 (Pathogenesis)1. 肝纤维化的核心环节  核心细胞： 肝星状细胞 (Hepatic Stellate Cell, HSC) 的活化 。 活化机制： 静止期HSC在致病因子（病毒、酒精等）及细胞因子（TGF-β1, PDGF）刺激下，转化为肌成纤维细胞 (Myofibroblast)，合成大量胶原纤维（主要为I、III型胶原）沉积于 Disse腔 。 后果： 肝窦毛细血...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2026/01/04/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F-2025%E7%A7%8B/f.%E8%82%9D%E5%8A%9F%E8%83%BD%E4%B8%8D%E5%85%A8/" title="肝功能不全-病生理">肝功能不全-病生理</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time datetime="2026-02-02T15:41:29.177Z" title="更新于 2026-02-02 23:41:29">2026-02-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%BD%A0%E6%B0%B8%E8%BF%9C%E6%98%AF%E5%81%9A%E9%A2%98%E8%9B%86%EF%BC%8C%E5%88%AB%E5%BF%98%E4%BA%86%E8%A1%A1%E6%B0%B4%E7%9A%84%E6%81%A9/">你永远是做题蛆，别忘了衡水的恩</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F/">消化系统</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%A4%A7%E4%B8%89%E4%B8%8A/">大三上</a></span></div><div class="content">第一部分：肝功能不全概述1. 核心定义  肝功能不全 (Hepatic Insufficiency)：各种致肝损伤因素导致肝实质细胞和非实质细胞严重损伤，引起分泌、合成、代谢、解毒与免疫功能发生严重障碍，机体出现黄疸、出血、继发性感染、肾功能障碍和脑病的临床综合征。 肝功能衰竭 (Hepatic Failure)：肝功能不全的晚期阶段，临床主要表现为肝性脑病与肝肾综合征。  2. 常见病因  生物性因素：肝炎病毒 (甲、乙、丙型等)、细菌、寄生虫、人腺病毒 (HAdV-41)、新冠病毒 (SARS-CoV-2) 等。 理化性因素： 药物：如对乙酰氨基酚 (APAP) 中毒。 毒物：酒精、四氯化碳、毒蕈、N,N-二甲基亚硝胺 (复旦投毒案涉及毒物)。   遗传性因素：肝豆状核变性 (Wilson病)。 免疫性因素：原发性胆汁性肝硬化 (PBC)、自身免疫性肝炎。 营养性因素：缺乏胆碱、甲硫氨酸等抗脂肪肝物质。   第二部分：肝功能障碍的病理生理与临床表现1. 物质代谢障碍  糖代谢障碍 (低血糖)： 机制：肝糖原储备减少；葡萄糖-6-磷酸酶破坏导致糖原分解障碍；胰岛素灭活减少。  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2026/01/04/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F-2025%E7%A7%8B/e.%E8%82%9D%E8%83%86%E7%96%BE%E7%97%85%E7%94%9F%E5%8C%96%E6%A3%80%E9%AA%8C/" title="肝胆疾病生化检验-诊断学">肝胆疾病生化检验-诊断学</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time datetime="2026-02-02T15:41:07.997Z" title="更新于 2026-02-02 23:41:07">2026-02-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%BD%A0%E6%B0%B8%E8%BF%9C%E6%98%AF%E5%81%9A%E9%A2%98%E8%9B%86%EF%BC%8C%E5%88%AB%E5%BF%98%E4%BA%86%E8%A1%A1%E6%B0%B4%E7%9A%84%E6%81%A9/">你永远是做题蛆，别忘了衡水的恩</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F/">消化系统</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%A4%A7%E4%B8%89%E4%B8%8A/">大三上</a></span></div><div class="content">第一部分：肝脏代谢功能指标（血清酶学）1. 转氨酶 (ALT &amp; AST) 基础  ALT (丙氨酸氨基转移酶) 分布：主要存在于肝细胞胞质中，是肝细胞受损最敏感的指标。 AST (天门冬氨酸氨基转移酶) 分布：存在于线粒体 (80%) 和胞质 (20%) 中。 AST 组织来源排序：心肌 &gt; 肝 &gt; 骨骼肌 &gt; 肾。 ALT 组织来源排序：肝 &gt; 肾 &gt; 心肌 &gt; 骨骼肌。 半衰期差异：ALT (47小时) &gt; AST (17小时)。  2. 转氨酶的临床意义 (AST&#x2F;ALT 比值 - De Ritis Ratio)  急性肝炎 (轻型)：AST&#x2F;ALT &lt; 1 (以ALT升高为主，主要损伤胞质)。 酒精性肝病：AST&#x2F;ALT &gt; 2 (酒精主要损伤线粒体，且酒精抑制ALT活性)。 慢性肝炎&#x2F;肝硬化：AST&#x2F;ALT &gt; 1 (提示病程迁延或损伤深达线粒体)。 肝癌：AST&#x2F;ALT &gt; 3。 急性重症肝炎：AST&#x2F;ALT &gt; 1 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/11/23/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F-2025%E7%A7%8B/9.%E8%83%B0%E8%85%BA%E8%82%BF%E7%98%A4/" title="胰腺肿瘤笔记">胰腺肿瘤笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time datetime="2026-02-02T15:37:44.267Z" title="更新于 2026-02-02 23:37:44">2026-02-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%BD%A0%E6%B0%B8%E8%BF%9C%E6%98%AF%E5%81%9A%E9%A2%98%E8%9B%86%EF%BC%8C%E5%88%AB%E5%BF%98%E4%BA%86%E8%A1%A1%E6%B0%B4%E7%9A%84%E6%81%A9/">你永远是做题蛆，别忘了衡水的恩</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F/">消化系统</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%A4%A7%E4%B8%89%E4%B8%8A/">大三上</a></span></div><div class="content">一、 胰腺癌 (Pancreatic Carcinoma)通常指胰腺导管腺癌，是胰腺外分泌腺恶性肿瘤。 1. 流行病学与病因 流行病学： 45-70岁多见，男:女 &#x3D; 1.3~1.8:1。 部位分布： 胰头癌 (70-80%) &gt; 胰体尾癌 &gt; 全胰癌。 病因：癌基因激活+抑癌基因失活+DNA修复基因异常；K-RAS 突变可成为胰腺癌早期事件 高危因素： 吸烟（嗜烟者加倍怀疑）、高脂饮食、糖尿病、慢性胰腺炎、遗传（K-RAS突变是早期事件，抑癌基因P16、P53、SMAD4失活）。  2. 病理与生物学行为 组织类型： 导管细胞腺癌 (&gt;85%)： 最常见。 镜下特征：高-中分化腺体，但生物学行为很坏；明显的促纤维化反应（质硬）；浸润神经（这是顽固性腰背痛的基础）。   腺泡细胞癌、粘液性囊腺癌、胰母细胞癌（儿童）。   转移特性（极易转移）： 确诊时仅10%局限，90%已有转移。 易转移原因： 胰腺无完整包膜；血管淋巴管丰富；腹膜较薄。 途径： 直接蔓延： 胰头癌→胆总管、十二指肠、门静脉；胰尾癌→腹膜、神经。 淋巴转移： 胰头癌→幽门下淋巴结（最常...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/11/23/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F-2025%E7%A7%8B/8.%E8%83%B0%E8%85%BA%E7%82%8E/" title="胰腺炎笔记">胰腺炎笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time datetime="2026-02-02T15:37:28.070Z" title="更新于 2026-02-02 23:37:28">2026-02-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%BD%A0%E6%B0%B8%E8%BF%9C%E6%98%AF%E5%81%9A%E9%A2%98%E8%9B%86%EF%BC%8C%E5%88%AB%E5%BF%98%E4%BA%86%E8%A1%A1%E6%B0%B4%E7%9A%84%E6%81%A9/">你永远是做题蛆，别忘了衡水的恩</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F/">消化系统</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%A4%A7%E4%B8%89%E4%B8%8A/">大三上</a></span></div><div class="content">第一部分：总论与流行病学1. 定义 急性胰腺炎 (AP)：多种病因导致胰酶在胰腺内被激活后引起胰腺组织自身消化、水肿、出血甚至坏死的炎症反应。 严重程度：约 20%30% 为重症急性胰腺炎 (SAP)，总体病死率 5%10%。  2. 流行病学 发病率：男性多于女性，40~60岁高发。 趋势：虽然多数为轻症，但重症患者常伴有全身炎症反应 (SIRS) 和多器官功能障碍 (MODS)，死亡率较高。   第二部分：病因 (Etiology) —— “I GET SMASHED” 胆道疾病 (Gallstones)：最常见病因（占30-60%），包括胆石症、胆道微结石、胆道蛔虫。 酒精 (Ethanol)：西方国家常见，我国第二常见。机制包括促进胰液分泌、Oddi括约肌痉挛、形成蛋白栓。 代谢性因素： 高脂血症：甘油三酯 (TG) $\ge$ 11.3 mmol&#x2F;L 极易诱发；TG &lt; 5.65 mmol&#x2F;L 时风险较小。 高钙血症：甲旁亢等引起，钙沉积导致胰管结石，钙离子促进胰蛋白酶原激活。   医源性 (ERCP)：ERCP术后胰腺炎 (PEP)，术后高淀...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/11/23/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F-2025%E7%A7%8B/7.%E8%82%A0%E6%A2%97%E9%98%BB/" title="肠梗阻笔记">肠梗阻笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time datetime="2026-02-02T15:37:09.793Z" title="更新于 2026-02-02 23:37:09">2026-02-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%BD%A0%E6%B0%B8%E8%BF%9C%E6%98%AF%E5%81%9A%E9%A2%98%E8%9B%86%EF%BC%8C%E5%88%AB%E5%BF%98%E4%BA%86%E8%A1%A1%E6%B0%B4%E7%9A%84%E6%81%A9/">你永远是做题蛆，别忘了衡水的恩</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F/">消化系统</a><span class="article-meta-link">•</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%A4%A7%E4%B8%89%E4%B8%8A/">大三上</a></span></div><div class="content">第一部分：总论 (General Overview)1. 定义 (Definition) 肠梗阻：任何原因引起的肠内容物通过障碍，并伴有腹胀、腹痛等临床表现。 是外科常见的急腹症 (acute abdomen) 之一。  2. 病因和分类 (Etiology &amp; Classification)A. 按发病原因分类 机械性肠梗阻 (Mechanical intestinal obstruction)  腔外因素 (Extraluminal)： 粘连 (Adhesions)：约占 60%，最常见原因（术后多见）。 疝 (Hernias)：约占 10%，包括腹外疝（腹股沟疝、股疝等）和腹内疝。 肿瘤 (Neoplasms)：约占 20%（原发或转移）。 脓肿、扭转等。   壁内因素 (Intramural)： 先天性（旋转不良、重复畸形）、炎症（克罗恩病、结核、憩室炎）、肿瘤、创伤血肿、肠套叠、内异症、放射性肠炎等。   腔内因素 (Intraluminal)： 胆石（胆石性肠梗阻）、肠石、粪石、异物等。     动力性肠梗阻 (Dynamic intestinal obstr...</div></div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/_posts/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/_posts/">1</a><span class="page-number current">2</span><a class="page-number" href="/_posts/page/3/#content-inner">3</a><a class="extend next" rel="next" href="/_posts/page/3/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">纪雪晖</div><div class="author-info-description">一条脱离了高级趣味的蛆。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">24</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="sticky_layout"><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E4%BD%A0%E6%B0%B8%E8%BF%9C%E6%98%AF%E5%81%9A%E9%A2%98%E8%9B%86%EF%BC%8C%E5%88%AB%E5%BF%98%E4%BA%86%E8%A1%A1%E6%B0%B4%E7%9A%84%E6%81%A9/"><span class="card-category-list-name">你永远是做题蛆，别忘了衡水的恩</span><span class="card-category-list-count">22</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E5%A4%A7%E4%B8%89%E4%B8%8A/" style="font-size: 1.1em; color: #999">大三上</a> <a href="/tags/%E6%B6%88%E5%8C%96%E7%B3%BB%E7%BB%9F/" style="font-size: 1.1em; color: #999">消化系统</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/01/">
+            <span class="card-archive-list-date">
+              一月 2026
+            </span>
+            <span class="card-archive-list-count">17</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/11/">
+            <span class="card-archive-list-date">
+              十一月 2025
+            </span>
+            <span class="card-archive-list-count">7</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">24</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2026-02-02T15:44:37.561Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By 纪雪晖</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.4</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.4"></script><script src="/js/main.js?v=5.5.4"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
